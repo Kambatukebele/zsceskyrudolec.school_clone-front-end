@@ -1,0 +1,296 @@
+:root {
+  --headings-font-family: "Source Sans Pro", sans-serif;
+  --body-fonts: "Open Sans", sans-serif;
+  --black-color: #000000;
+  --gray-color: #abb8c3;
+  --white-color: #ffffff;
+  --pale-pink: #f78da7;
+  --vivid-red: #cf2e2e;
+  --vivid-orange: #ff6900;
+  --luminous-vivid-amber: #fcb900;
+  --light-green-cyan: #7bdcb5;
+  --vivid-green-cyan: #00d084;
+  --pale-cyan-blue: #8ed1fc;
+  --vivid-cyan-blue: #0693e3;
+  --vivid-purple: #9b51e0;
+  --vivid-strong-blue: #404040;
+}
+
+.aktuality {
+  width: 100%;
+  background-color: white;
+  margin: 50px 0;
+}
+
+.aktuality__upper {
+  width: 89%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.aktuality__upper h5 {
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  color: #00a1ff;
+  font-weight: 400;
+}
+.aktuality__upper h5:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.aktuality__upper .fa-solid {
+  font-size: 18px;
+  margin: 0 10px;
+}
+.aktuality__upper p {
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+  font-weight: 400;
+}
+.aktuality__content_all {
+  margin-bottom: 50px;
+}
+.aktuality__content {
+  width: 89%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aktuality__content h1 {
+  font-family: var(--headings-font-family);
+  font-size: 48px;
+  line-height: 77px;
+  font-weight: 700;
+  color: #011a33;
+}
+
+.aktuality__content .line {
+  width: 35px;
+  margin-top: 7px;
+  height: 3px;
+  background-color: #00a1ff;
+  margin-bottom: 10px;
+}
+.aktuality__content p {
+  font-family: var(--body-fonts);
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 100;
+  color: #404040;
+}
+/* .kalendar__box_all {
+  margin-bottom: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kalendar__box {
+  background-color: #00a1ff;
+  width: 69%;
+  min-width: 700px;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kalendar__date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7px;
+  border-right: 1px solid white;
+}
+.kalendar__date h2 {
+  font-family: var(--body-fonts);
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+  line-height: 50px;
+}
+.kalendar__date p {
+  font-family: var(--body-fonts);
+  font-size: 16px;
+  color: white;
+  line-height: 26px;
+  font-weight: 400;
+}
+.kalendar__text h3 {
+  font-family: var(--body-fonts);
+  font-size: 21px;
+  line-height: 25px;
+  color: white;
+  font-weight: 400;
+}
+.kalendar__text h3 a {
+  color: white;
+  text-decoration: none;
+}
+.kalendar__text h3 a:hover {
+  text-decoration: underline;
+}
+.kalendar__detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7px;
+}
+.kalendar__detail h4 {
+  font-family: var(--body-fonts);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: white;
+  margin-right: 7px;
+}
+.kalendar__detail fa-solid {
+  font-size: 25px;
+} */
+/* ===== aktuality post ===== */
+.aktuality__post {
+  width: 89%;
+  margin: auto;
+
+  margin-bottom: 50px;
+}
+.aktuality__post_all {
+  min-width: 1200px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.aktuality__post_left_all {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  position: relative;
+}
+.aktuality__date_of_publication {
+  background-color: rgb(0, 0, 0);
+  width: 90px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1%;
+  right: 5%;
+}
+.aktuality__date_of_publication p {
+  color: white;
+}
+.aktuality__post_left_photo {
+  background: url("/img/kid1.jpg");
+  height: 400px;
+  width: 580px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aktuality__post_content {
+  background-color: white;
+  border-radius: 5px;
+  max-width: 500px;
+  height: 200px;
+  border: 1px solid white;
+  padding: 20px;
+  margin: -90px 0 0 20px;
+}
+
+.aktuality__post_content .aktuality__post_title h1 {
+  font-family: var(--headings-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.aktuality__post_content .aktuality__post_title h1:hover {
+  color: #00a1ff;
+  cursor: pointer;
+}
+.aktuality__post_content .aktuality__post_author {
+  display: flex;
+  justify-content: flex-start;
+}
+.aktuality__post_content .aktuality__post_author h4,
+.aktuality__post_content .aktuality__post_author h5 {
+  font-family: var(--headings-font-family);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #00a1ff;
+  margin: 0 0 20px 9px;
+}
+/* .aktuality__post_content .aktuality__post_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.aktuality__post_content .aktulity__post_text p {
+  font-family: var(--body-fonts);
+  font-size: 16px;
+  line-height: 26px;
+  color: #404040;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.aktuality__post_content .aktulity__post_text button {
+  background-color: var(--vivid-orange);
+  border: none;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: var(--body-fonts);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+.aktuality__post_content .aktulity__post_text button:hover {
+  cursor: pointer;
+}
+
+/* ===== right side section===== */
+.aktuality__post_right_all {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.aktuality__post_right_photo {
+  background: url("/img/kid2.jpg");
+  height: 400px;
+  width: 580px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rebeccapurple;
+}
+.aktuality__date_of_publication_1 {
+  background-color: rgb(0, 0, 0);
+  width: 90px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1%;
+  right: 2%;
+}
+.aktuality__date_of_publication_1 p {
+  color: white;
+}

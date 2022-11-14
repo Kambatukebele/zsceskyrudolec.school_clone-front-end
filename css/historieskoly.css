@@ -1,0 +1,108 @@
+:root {
+    --headings-font-family: "Source Sans Pro", sans-serif;
+    --body-fonts: "Open Sans", sans-serif;
+    --black-color: #000000;
+    --gray-color: #abb8c3;
+    --white-color: #ffffff;
+    --pale-pink: #f78da7;
+    --vivid-red: #cf2e2e;
+    --vivid-orange: #ff6900;
+    --luminous-vivid-amber: #fcb900;
+    --light-green-cyan: #7bdcb5;
+    --vivid-green-cyan: #00d084;
+    --pale-cyan-blue: #8ed1fc;
+    --vivid-cyan-blue: #0693e3;
+    --vivid-purple: #9b51e0;
+    --vivid-strong-blue: #404040;
+  }
+  
+  .historieskoly {
+    width: 100%;
+    background-color: white;
+    margin: 50px 0;
+  }
+  
+  .historieskoly__upper {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .historieskoly__upper h5 {
+    font-family: var(--body-fonts);
+    font-size: 14px;
+    line-height: 22px;
+    color: #00a1ff;
+    font-weight: 400;
+  }
+  .historieskoly__upper h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .historieskoly__upper .fa-solid {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .historieskoly__upper p {
+    font-family: var(--body-fonts);
+    font-size: 14px;
+    line-height: 22px;
+    color: #999;
+    font-weight: 400;
+  }
+  .historieskoly__content_all {
+    margin-bottom: 50px;
+  }
+  .historieskoly__content {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .historieskoly__content h1 {
+    font-family: var(--headings-font-family);
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 700;
+    color: #011a33;
+  }
+  
+  .historieskoly__content .line {
+    width: 35px;
+    margin-top: 7px;
+    height: 3px;
+    background-color: #00a1ff;
+    margin-bottom: 10px;
+  }
+  .historieskoly__content p {
+    font-family: var(--body-fonts);
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 100;
+    color: #404040;
+  }
+
+  /* ======================================================
+  historieskoly_text ================================== */
+
+.historieskoly_text{
+    margin: auto;
+    width: 89%;
+}
+
+.historieskoly_text_all{
+    margin: 100px 0;
+}
+
+.historieskoly_text_all p{
+    font-family: var(--body-fonts);
+    font-size: 16px;
+    line-height: 26px;
+    color: #404040;
+    margin-bottom: 20px;
+}

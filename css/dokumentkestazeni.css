@@ -1,0 +1,150 @@
+:root {
+    --headings-font-family: "Source Sans Pro", sans-serif;
+    --body-fonts: "Open Sans", sans-serif;
+    --black-color: #000000;
+    --gray-color: #abb8c3;
+    --white-color: #ffffff;
+    --pale-pink: #f78da7;
+    --vivid-red: #cf2e2e;
+    --vivid-orange: #ff6900;
+    --luminous-vivid-amber: #fcb900;
+    --light-green-cyan: #7bdcb5;
+    --vivid-green-cyan: #00d084;
+    --pale-cyan-blue: #8ed1fc;
+    --vivid-cyan-blue: #0693e3;
+    --vivid-purple: #9b51e0;
+    --vivid-strong-blue: #404040;
+  }
+  
+  .Dokumentykestažení {
+    width: 100%;
+    background-color: white;
+    margin: 50px 0;
+  }
+  
+  .Dokumentykestažení__upper {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .Dokumentykestažení__upper h5 {
+    font-family: var(--body-fonts);
+    font-size: 14px;
+    line-height: 22px;
+    color: #00a1ff;
+    font-weight: 400;
+  }
+  .Dokumentykestažení__upper h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .Dokumentykestažení__upper .fa-solid {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .Dokumentykestažení__upper p {
+    font-family: var(--body-fonts);
+    font-size: 14px;
+    line-height: 22px;
+    color: #999;
+    font-weight: 400;
+  }
+  .Dokumentykestažení__content_all {
+    margin-bottom: 50px;
+  }
+  .Dokumentykestažení__content {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Dokumentykestažení__content h1 {
+    font-family: var(--headings-font-family);
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 700;
+    color: #011a33;
+  }
+  
+  .Dokumentykestažení__content .line {
+    width: 35px;
+    margin-top: 7px;
+    height: 3px;
+    background-color: #00a1ff;
+    margin-bottom: 10px;
+  }
+  .Dokumentykestažení__content p {
+    font-family: var(--body-fonts);
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 100;
+    color: #404040;
+  }
+
+  /* ======================================================
+  Rozvrh hodin box ================================== */
+
+
+.Dokumentyke_stažení{
+  width: 89%;
+  margin: auto;
+  
+}
+
+.Dokumentyke_stažení_all h1{
+ 
+  font-family: var(--headings-font-family);
+  font-size: 30px;
+  line-height: 48px;
+  color: #011a33;
+  font-weight: 700;
+}
+.Dokumentyke_stažení_all p{
+ 
+ width: 1200px;
+ border: 1px solid #011a33;
+}
+
+
+
+.Dokumentyke_stažení_all_wrapper{
+  
+  display: flex;
+  
+  margin-bottom: 100px;
+  
+}
+.Dokumentyke_stažení_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  margin: 10px 20px;
+  
+}
+
+.Dokumentyke_stažení_container h3{
+  font-family: var(--headings-font-family);
+  font-size: 15px;
+  line-height: 24px;
+  color: #2b2c28;
+  font-weight: 700;
+  
+}
+.Dokumentyke_stažení_container h5{
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  
+  font-weight: 400;
+}
+.Dokumentyke_stažení_container h5 a{
+  text-decoration: none;
+  color: #0074db;
+}
+

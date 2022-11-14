@@ -1,0 +1,224 @@
+:root {
+  --headings-font-family: "Source Sans Pro", sans-serif;
+  --body-fonts: "Open Sans", sans-serif;
+  --black-color: #000000;
+  --gray-color: #abb8c3;
+  --white-color: #ffffff;
+  --pale-pink: #f78da7;
+  --vivid-red: #cf2e2e;
+  --vivid-orange: #ff6900;
+  --luminous-vivid-amber: #fcb900;
+  --light-green-cyan: #7bdcb5;
+  --vivid-green-cyan: #00d084;
+  --pale-cyan-blue: #8ed1fc;
+  --vivid-cyan-blue: #0693e3;
+  --vivid-purple: #9b51e0;
+  --vivid-strong-blue: #404040;
+}
+.kontakty {
+  width: 100%;
+  background-color: white;
+  margin: 50px 0;
+}
+
+.kontakty__upper {
+  width: 89%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.kontakty__upper h5 {
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  color: #00a1ff;
+  font-weight: 400;
+}
+
+.kontakty__upper .fa-solid {
+  font-size: 18px;
+  margin: 0 10px;
+}
+.kontakty__upper p {
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+  font-weight: 400;
+}
+.kontakty__content_all {
+  margin-bottom: 50px;
+}
+.kontakty__content {
+  width: 89%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kontakty__content h1 {
+  font-family: var(--headings-font-family);
+  font-size: 48px;
+  line-height: 77px;
+  font-weight: 700;
+  color: #011a33;
+}
+
+.kontakty__content .line {
+  width: 35px;
+  margin-top: 7px;
+  height: 3px;
+  background-color: #00a1ff;
+  margin-bottom: 10px;
+}
+.kontakty__content p {
+  font-family: var(--body-fonts);
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 100;
+  color: #404040;
+}
+
+/* ===== KONTAKTY BOX ===== */
+.kontakty__box {
+  width: 89%;
+  margin: auto;
+  margin-bottom: 90px;
+}
+.kontakty__box_all {
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.kontakty_box_left {
+  min-width: 600px;
+}
+.kontakty__box_left_title,
+.box__left_title {
+  font-family: var(--headings-font-family);
+  font-size: 36px;
+  line-height: 40px;
+  color: #011a33;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.kontakty__box_left_title p {
+  font-family: var(--body-fonts);
+  font-size: 22px;
+  line-height: 31px;
+  color: #011a33;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* .kontakty__box_left_adress {
+} */
+.kontakty__box_left_adress .adress_1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.kontakty__box_left_adress .adress_1 .fa-solid {
+  font-size: 22px;
+  margin: 10px 10px 10px 0;
+}
+.kontakty__box_left_adress .adress_1 p {
+  font-family: var(--body-fonts);
+  font-size: 18px;
+  line-height: 25px;
+  color: #011a33;
+  font-weight: 400;
+}
+.kontakty__box_left_adress .adress_1 h4 {
+  font-family: var(--body-fonts);
+  font-size: 18px;
+  line-height: 29px;
+  color: #404040;
+  font-weight: 400;
+}
+
+.kontakty__box_left_adress .adress_1:last-child {
+  margin-bottom: 20px;
+}
+
+/* right part */
+.kontakty__box_right {
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+.kontakty__box_right_form h1 {
+  font-family: var(--headings-font-family);
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #2b2c28;
+}
+
+.form__box {
+  width: 100%;
+  display: flex;
+
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.form__box_label {
+  width: 100px;
+
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.form__box_label label {
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #011a33;
+}
+.form__box_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__box_input input,
+textarea {
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.164);
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #011a33;
+  border: none;
+  border-radius: 5px;
+}
+
+.form__box_bottom h6 {
+  font-family: var(--body-fonts);
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #404040;
+  margin-bottom: 20px;
+}
+.form__box_input_bottom input {
+  width: 150px;
+  padding: 10px;
+  font-family: var(--body-fonts);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: #0693e3;
+  border: none;
+}
+.form__box_input_bottom input:hover {
+  background-color: var(--vivid-orange);
+  cursor: pointer;
+}
